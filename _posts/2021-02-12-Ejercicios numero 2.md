@@ -7,9 +7,13 @@ Problema
 > Recibes dos enteros x y y. Estos números son las coordenadas de un punto en el plano XY.
 
 > Imprime el número del cuadrante que contiene el punto dado: 1, 2, 3, o 4.
+    
     - 1= (x > 0, y > 0)
+    
     - 2= (x < 0, y < 0)
+    
     - 3= (x < 0, y < 0)
+    
     - 4= (x > 0, y < 0)
 
 - Input
