@@ -1,10 +1,9 @@
 ---
-title: Contact
+title: Contacto
 layout: page
 ---
 
-You can always contact the creator of this theme via [Twitter](https://twitter.com/_SupunKavinda).
+Simepre me puedes contactar mediante [Twitter](https://twitter.com/toomas_ps).
+O por correo [Email](mailto:tomas_ps@onmail.com)
 
-If you need help with Jekyll, ask questions on [Jekyll Talk](https://talk.jekyllrb.com/).
 
-(Change this by editing `contact.md` file)
