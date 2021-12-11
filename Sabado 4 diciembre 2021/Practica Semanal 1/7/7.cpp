@@ -4,7 +4,6 @@ using namespace std;
 int main()
 {
     int n;
-    cout << "Numero";
         cin >> n;
-    cout << (n-);
+    cout << (n/10);
 }
