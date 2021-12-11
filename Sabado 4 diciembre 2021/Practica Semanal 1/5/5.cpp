@@ -12,3 +12,4 @@ int main()
         cin >> c;
     cout << (n*3+b*5+c*7);
 }
+
