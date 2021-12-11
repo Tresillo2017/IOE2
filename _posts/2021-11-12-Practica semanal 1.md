@@ -8,6 +8,7 @@ author: Tomas Palma
 > Escriba un programa que imprima un solo entero: 2021.
 
 - Codigo 
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -29,6 +30,7 @@ int main()
 > Imprime n+1.
 
 - Codigo
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -54,6 +56,7 @@ int main()
 > Imprime a+b.
 
 - Codigo
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -81,6 +84,7 @@ int main()
 > Imprime un entero — el número de manzanas que cada estudiante recibe después de una distribución equitativa de manzanas.
 
 - Codigo 
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -108,6 +112,7 @@ int main()
 > Imprime un entero — el número de manzanas que quedarán después de una distribución equitativa de manzanas.
 
 - Codigo 
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -141,6 +146,7 @@ int main()
 > Imprime un entero — el número de monedas que Alicia necesita para comprar todos los productos necesarios para la ensalada.
 
 - Codigo 
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -169,6 +175,7 @@ int main()
 > Imprime un entero — el máximo número de equipos que pueden ser creados a partir de los n estudiantes.
 
 - Codigo 
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -194,6 +201,7 @@ int main()
 > Imprime un entero positivo — el piso del apartamento con el número dado.
 
 - Codigo 
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -220,6 +228,7 @@ int main()
 > En la segunda línea imprime un entero — el número de minutos restantes del número de minutos dados.
 
 - Codigo 
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -248,6 +257,7 @@ int main()
 > Imprime un entero — la suma de los números restantes luego de que Bob borre todos los números pares.
 
 - Codigo 
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -282,6 +292,7 @@ int main()
 > Imprime un entero positivo — el siguiente número par después del número dado.
 
 - Codigo 
+
 ```cpp
 #include <iostream>
 using namespace std;
