@@ -6,12 +6,17 @@ int main()
     int a, b, c;
     cin >> a >> b >> c;
 
-    if(a > b && b > c)
-        cout << a + b
+    if(a + b >= a + c && a + b >= b + c)
+    {
+        cout << a + b << endl;
+    }
+    else if(a + c >= a + b && a + c >= b + c )
+    {
+        cout << a + c << endl;
+    }
     else 
-        
-    else if (b > a && b < c)
-        cout << b + c
-    else if (a == b && b == c)
-        cout << a + c
+    {
+        cout << b + c << endl;
+    }
+
 }
