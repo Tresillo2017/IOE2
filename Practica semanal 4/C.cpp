@@ -3,10 +3,10 @@ using namespace std;
 
 int main()
 {
-    int a, b;
-    cin >> a >> b;
+    int n;
+    cin >> n;
 
-    for(int i = a; i <= a; i++)
+    for(int i = n; i * i; i <= n)
     {
         cout << i << endl;
     }
