@@ -5,17 +5,16 @@ int main()
 {
     int i, n, m;
     cin >> n;
-    int suma = 0;
+    int l = 0;
     
     for(int i = 1; i <= n; i++)
     {
-        cin >> m;
-        if (m > 100)
-            suma = suma + 100;
+        if (i % 2 == 0)
+            l = l + 2;
         else
-            suma = suma + m;
+            l = l + 1;
     }
-    cout << suma << endl;
+    cout << l << endl;
 }   
 
 

@@ -10,10 +10,8 @@ int main()
     for(int i = 1; i <= n; i++)
     {
         cin >> m;
-        if (m > 100)
-            suma = suma + 100;
-        else
-            suma = suma + m;
+        if (m == 0)
+            suma++;
     }
     cout << suma << endl;
 }   

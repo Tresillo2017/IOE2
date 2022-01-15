@@ -5,17 +5,15 @@ int main()
 {
     int i, n, m;
     cin >> n;
-    int suma = 0;
+    int max = 0;
     
     for(int i = 1; i <= n; i++)
     {
         cin >> m;
-        if (m > 100)
-            suma = suma + 100;
-        else
-            suma = suma + m;
+        if (m > max)
+            max = m;
     }
-    cout << suma << endl;
+    cout << max << endl;
 }   
 
 
