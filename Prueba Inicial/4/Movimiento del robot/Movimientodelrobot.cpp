@@ -6,25 +6,27 @@
 using namespace std;
 int main()
 {
-	int movimiento;
-	int x, y = 0;
+	string movimiento;
+	int x = 0, y = 0;
     cin >> movimiento;
-	if (movimiento = U)
+	for (int i = 0; i < movimiento.length(); i++)
 	{
-		cin >> x + 1;
-	}	
-	if (movimiento = R)
-	{
-		cin >> x+1
+		if (movimiento[i] == 'U')
+		{
+			y++;
+		}	
+		else if (movimiento[i] == 'R')
+		{
+			x++;
+		}
+		else if (movimiento[i] == 'D')
+		{
+			y--;
+		}
+		else if (movimiento[i] == 'L')
+		{
+			x--;
+		}
 	}
-	if (movimiento = D)
-	{
-		cin >> y-1
-	}
-	if (movimiento = L)
-	{
-		cin >> x-1
-	}
-	cout << x;
-	cout << y;
+	cout << x << endl << y;
 }
