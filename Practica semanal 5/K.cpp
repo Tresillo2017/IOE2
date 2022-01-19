@@ -4,23 +4,31 @@ using namespace std;
 
 int main()
 {
-    int i;
+    int na = 0, nb = 0;
     string s;
+    cin >> s;
 
-    bool p = true;
-    
-
-    for(int i =0; i < s.size / 2; i++) {
-        if(p[i] != p[s.size()-i-1]) {
-            p = false
-        }
+    for(int i = 0; i < s.size(); i++) 
+    {
+        if(s[i] == 'a') 
+            na++;
+        else
+            nb++;
     }
-    if(p == true) {
+    if (s.size() % 2 == 0)
+    {
+        if(na % 2 == 0 && nb % 2 == 0) 
+            cout << "YES" << endl;
+        else 
+            cout << "NO" << endl;
+    }
+    else if ((na % 2 == 0 && nb % 2 == 1) || (na % 2 == 1 && nb % 2 == 0))
+    {
         cout << "YES" << endl;
-    } else {
-        cout << "NO" << endl;
     }
-
+    else
+        cout << "NO" << endl;
+    
 }   
 
 

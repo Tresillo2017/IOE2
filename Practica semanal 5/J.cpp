@@ -13,29 +13,30 @@ int main()
 
 
     int j = 0;
-    for (int i = s.length()/2; i < s.length(); i++)
+    for (int i = s.size()/2; i < s.size(); i++)
     {
         test[j] = s[i];
-        cout << test[j];
+        // cout << test[j];
         j++;
     }
 
-    for (int i = 0; i < s.length()/2; i++)
+    for (int i = 0; i < s.size()/2; i++)
     {
+            // cout << j;
             test[j] = s[i];
             j++;
             cout << test[j] << endl;
     }
 
     // cout << primera << endl;
-    /* for (int i = 0; i < s.length()/2; i++)
+    /* for (int i = 0; i < s.size()/2; i++)
     {
             primera[i] = s[i];
             cout << primera[i] << endl;
     }
     int j = 0;
 
-    for (int i = s.length()/2; i < s.length(); i++)
+    for (int i = s.size()/2; i < s.size(); i++)
     {
         segunda[j] = s[i];
         cout << segunda[j];
