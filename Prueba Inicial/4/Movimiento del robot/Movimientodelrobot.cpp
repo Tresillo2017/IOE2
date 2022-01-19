@@ -11,22 +11,38 @@ int main()
     cin >> movimiento;
 	for (int i = 0; i < movimiento.length(); i++)
 	{
-		if (movimiento[i] == 'U')
+		switch (movimiento[i])
 		{
+		case 'U':
 			y++;
-		}	
-		else if (movimiento[i] == 'R')
-		{
+			break;
+		
+		case 'R':
 			x++;
-		}
-		else if (movimiento[i] == 'D')
-		{
+			break;
+		case 'D':
 			y--;
-		}
-		else if (movimiento[i] == 'L')
-		{
+			break;
+		case 'L':
 			x--;
+			break;
 		}
+		// if (movimiento[i] == 'U')
+		// {
+		// 	y++;
+		// }	
+		// else if (movimiento[i] == 'R')
+		// {
+		// 	x++;
+		// }
+		// else if (movimiento[i] == 'D')
+		// {
+		// 	y--;
+		// }
+		// else if (movimiento[i] == 'L')
+		// {
+		// 	x--;
+		// }
 	}
 	cout << x << endl << y;
 }
