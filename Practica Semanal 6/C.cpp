@@ -13,12 +13,10 @@ int main()
     {
         cin >> a[i];
     }
-
+    int x;
+    cin >> x;
     for(int i = 0; i < n; i++)
     {
-        if(a[i] % 2 == 0)
-        {
-            cout << a[i] << endl;
-        }
+            cout << a[i]+x << " ";
     }
 }   
