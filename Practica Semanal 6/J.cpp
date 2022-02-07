@@ -4,10 +4,10 @@ using namespace std;
 
 int main()
 {
-    int n, maximo = 0;
+    int n, maximo1 = 0, maximo2 = 0, max = 0;
     cin >> n;
 
-    vector<int> a(n);
+    vector<long long int> a(n);
 
     for(int i = 0; i < n; i++)
     {
@@ -15,13 +15,12 @@ int main()
     }
     for(int i = 0; i < n; i++)
     {
-        for(int j = i+1; j < n; j++)
+        if (a[i] > maximo1)
         {
-            if (a[i] * a[j] > maximo)
-            {
-                maximo = a[i] * a[j];
-            }
+            maximo1 = a[i]
+            max = i;
         }
     }
+    
     cout << maximo << endl;
 }   
